@@ -4,7 +4,7 @@ class letter:
         self.english = str(english)
 
 
-letters = [
+letters = (
     letter(".-", "A"), letter("-...", "B"), letter("-.-.", "C"),
     letter("-..", "D"), letter(".", "E"), letter("..-.", "F"),
     letter("--.", "G"), letter("....", "H"), letter("..", "I"),
@@ -23,7 +23,7 @@ letters = [
     letter("-.--.", "("), letter("---...", ":"), letter("-...-", "="),
     letter("-.-.--", "!"), letter("-....-", "-"), letter("-..-.", "%"),
     letter(".-.-.", "+"), letter(".-..-.", '"'), letter("-..-.", "/")
-]
+)
 
 
 def transformString(str):
